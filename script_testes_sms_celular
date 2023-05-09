@@ -1,0 +1,32 @@
+SCRIPT DE TESTES ACERTO:
+
+--Exercício 1--
+Os requisitos informados  para a elaboração dos casos de testes para validação do envio de SMS possui informações high level.
+os seguintes requisitos para ampla cobertura dos testes devem ser informados:
+	- As mensagens  que devem ser informadas ao USER quando executado uma ação NEGATIVA 
+	- Formatação do campo e suas limitações
+	- Restrições de inserções de dados 
+	
+--Pré requisitos-- 	
+	Possuir números de celulares inválidos para envio de SMS 
+	Possuir números de DDD inválido 
+	Possuir númeor de celular valido para envio de SMS com sucesso
+
+--Regras de Validação-- 	
+	Validar remoção de caracteres do DDD e Telefone especiais (+,-) quando digitados pelo user
+	Validar remoção do ZERO a esquerda do DDD quando digitado pelo USER.
+
+#Regras de quantidade de Caracteres#
+
+	Validar USABILIDADE da funcionalidade se envio de SMS para números de celular 
+	Validar mensageria para usuário com a inserção de caracteres NÃO permitidos (Especiais, 9 digitios, e caracteres de Texto)"
+	Validar envio de SMS para números fixos "Negativo"
+	Validar digitar o numéro de celular com caracteres especiais  (+,- e ASGK@#$) "Negativo"
+	Validar envio de SMS para números de celular sem os digitos de DDD "Negativo"
+	Validar envio de SMS inserindo  o numéro de celular com apenas 9 digitos  "Negativo"
+	Validar envio de SMS com DDD+9+ Inserir o celular com o primeiro digito com valor ZERO "Negativo"
+	Validar envio de SMS com DDD+ o Valor do digito 9 informar digito 8 + numero do celular  "Negativo"
+	Validar envio de SMS para números de celular sem o  digito 9 informar apenas o DDD+ 8 Digitos do número celular "Negativo"
+	Validar envio de SMS para números de celular com o digito 9 informar apenas o DDD+7 Digitos do número celular "Negativo"
+	Validar envio de SMS para números de celular informando o DDD inválido 
+	Validar mascara de formatação campo de inserção do número de celular com aceite de 11 DIGITOS  (DDD+9+8 Digitos celular) POSITIVO
