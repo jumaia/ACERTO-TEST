@@ -1,0 +1,384 @@
+{
+  "id": "66731694-5258-4556-9f3b-bef07c2737d2",
+  "version": "2.0",
+  "name": "ACERTO",
+  "url": "https://buger-eats.vercel.app",
+  "tests": [{
+    "id": "9a26d8ad-f1d2-402e-979c-bd319fa6b1df",
+    "name": "CADASTRO ENTREGADOR",
+    "commands": [{
+      "id": "b9e95424-f999-4d1f-bcb7-6eb605028e08",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ba85f57e-efcf-4f34-b659-11c74aa6e005",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1521x802",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2b512e9d-f73c-4562-87a8-8db737d9514d",
+      "comment": "",
+      "command": "click",
+      "target": "css=strong",
+      "targets": [
+        ["css=strong", "css:finder"],
+        ["xpath=//div[@id='page-home']/div/main/a/strong", "xpath:idRelative"],
+        ["xpath=//strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'Cadastre-se para fazer entregas')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a97527f5-4fe3-4079-9d01-285019332a04",
+      "comment": "",
+      "command": "click",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=fieldset:nth-child(2) > .field-group:nth-child(2) > .field:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//div[@id='page-deliver']/form/fieldset/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bec4ab33-423c-42c3-8a5d-88e82a9d38c9",
+      "comment": "",
+      "command": "type",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=fieldset:nth-child(2) > .field-group:nth-child(2) > .field:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//div[@id='page-deliver']/form/fieldset/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "JULIO TEST"
+    }, {
+      "id": "6aca658d-f872-4a87-bad7-107bb16115a5",
+      "comment": "",
+      "command": "click",
+      "target": "name=cpf",
+      "targets": [
+        ["name=cpf", "name"],
+        ["css=fieldset:nth-child(2) > .field-group:nth-child(2) > .field:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='cpf']", "xpath:attributes"],
+        ["xpath=//div[@id='page-deliver']/form/fieldset/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ef9ae2e5-5c50-4edf-b31c-868135620f55",
+      "comment": "",
+      "command": "type",
+      "target": "name=cpf",
+      "targets": [
+        ["name=cpf", "name"],
+        ["css=fieldset:nth-child(2) > .field-group:nth-child(2) > .field:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='cpf']", "xpath:attributes"],
+        ["xpath=//div[@id='page-deliver']/form/fieldset/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "03826673956"
+    }, {
+      "id": "16c126a0-ccb2-41d6-ae18-05b78c21c9e8",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.field-group:nth-child(3) > .field:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[@id='page-deliver']/form/fieldset/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f394667c-5ff7-4066-b704-f937ebe708c7",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.field-group:nth-child(3) > .field:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[@id='page-deliver']/form/fieldset/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "MAIA9.JULIO@GMAIL.COM"
+    }, {
+      "id": "289719ca-00e9-4bd6-a981-815fadf0ab08",
+      "comment": "",
+      "command": "click",
+      "target": "name=whatsapp",
+      "targets": [
+        ["name=whatsapp", "name"],
+        ["css=.field-group:nth-child(3) > .field:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='whatsapp']", "xpath:attributes"],
+        ["xpath=//div[@id='page-deliver']/form/fieldset/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1df05be6-998f-48f6-9c85-ba22ad5c656c",
+      "comment": "",
+      "command": "type",
+      "target": "name=whatsapp",
+      "targets": [
+        ["name=whatsapp", "name"],
+        ["css=.field-group:nth-child(3) > .field:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='whatsapp']", "xpath:attributes"],
+        ["xpath=//div[@id='page-deliver']/form/fieldset/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": "41996695917"
+    }, {
+      "id": "7bd07b3a-43c9-4d92-b7af-6aad7d6c8aa4",
+      "comment": "",
+      "command": "click",
+      "target": "name=postalcode",
+      "targets": [
+        ["name=postalcode", "name"],
+        ["css=fieldset:nth-child(3) > .field-group:nth-child(2) > .field:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@name='postalcode']", "xpath:attributes"],
+        ["xpath=//div[@id='page-deliver']/form/fieldset[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//fieldset[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1e0a1a0a-a521-4f7a-91cf-531699da36a0",
+      "comment": "",
+      "command": "type",
+      "target": "name=postalcode",
+      "targets": [
+        ["name=postalcode", "name"],
+        ["css=fieldset:nth-child(3) > .field-group:nth-child(2) > .field:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@name='postalcode']", "xpath:attributes"],
+        ["xpath=//div[@id='page-deliver']/form/fieldset[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//fieldset[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "83075193"
+    }, {
+      "id": "6de4e13c-5e7b-4ecb-b33d-25e41c8830fd",
+      "comment": "",
+      "command": "click",
+      "target": "css=fieldset:nth-child(3) > .field-group:nth-child(2) > .field:nth-child(2) > input",
+      "targets": [
+        ["css=fieldset:nth-child(3) > .field-group:nth-child(2) > .field:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@value='Buscar CEP']", "xpath:attributes"],
+        ["xpath=//div[@id='page-deliver']/form/fieldset[2]/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//fieldset[2]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "931a12d7-546b-47e9-9dc6-c7d9ed7bc2b7",
+      "comment": "",
+      "command": "click",
+      "target": "name=address-number",
+      "targets": [
+        ["name=address-number", "name"],
+        ["css=.field-group:nth-child(4) > .field:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@name='address-number']", "xpath:attributes"],
+        ["xpath=//div[@id='page-deliver']/form/fieldset[2]/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec333a96-6267-48d2-b84b-daa58f08706c",
+      "comment": "",
+      "command": "type",
+      "target": "name=address-number",
+      "targets": [
+        ["name=address-number", "name"],
+        ["css=.field-group:nth-child(4) > .field:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@name='address-number']", "xpath:attributes"],
+        ["xpath=//div[@id='page-deliver']/form/fieldset[2]/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "72"
+    }, {
+      "id": "4883e274-2533-4de3-ba83-72686c24cd2e",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(1)",
+      "targets": [
+        ["css=li:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='page-deliver']/form/fieldset[3]/ul/li", "xpath:idRelative"],
+        ["xpath=//li", "xpath:position"],
+        ["xpath=//li[contains(.,'Moto')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5381079d-8062-406e-a37c-51d409acd4a8",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(2)",
+      "targets": [
+        ["css=li:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='page-deliver']/form/fieldset[3]/ul/li[2]", "xpath:idRelative"],
+        ["xpath=//li[2]", "xpath:position"],
+        ["xpath=//li[contains(.,'Bicicleta')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "14ca4d54-0cdc-4b66-bfab-0ed2906f11e3",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(3) > img",
+      "targets": [
+        ["css=li:nth-child(3) > img", "css:finder"],
+        ["xpath=//img[@alt='Van/Carro']", "xpath:img"],
+        ["xpath=//div[@id='page-deliver']/form/fieldset[3]/ul/li[3]/img", "xpath:idRelative"],
+        ["xpath=//li[3]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ee20119-956c-45e7-89e3-c5becaf10307",
+      "comment": "",
+      "command": "click",
+      "target": "css=p",
+      "targets": [
+        ["css=p", "css:finder"],
+        ["xpath=//div[@id='page-deliver']/form/div/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Foto da sua CNH')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "781a9cc8-7dfc-4209-a61f-29caba4aca83",
+      "comment": "",
+      "command": "type",
+      "target": "id=imageFile",
+      "targets": [],
+      "value": "C:\\Users\\julio.gomes\\Downloads\\Cnh_brasil_2007_generica.png"
+    }, {
+      "id": "5ce72cd8-7a6e-4589-999a-1ff1941e78fa",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.button-success",
+      "targets": [
+        ["css=.button-success", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='page-deliver']/form/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cadastre-se para fazer entregas')]", "xpath:innerText"]
+      ],
+      "value": "74,39"
+    }, {
+      "id": "44f5d7c3-2d8e-43cc-8d7b-92520ae93f8b",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.button-success",
+      "targets": [
+        ["css=.button-success", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='page-deliver']/form/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cadastre-se para fazer entregas')]", "xpath:innerText"]
+      ],
+      "value": "74,39"
+    }, {
+      "id": "055f0214-01b1-4f80-b78d-ed70f1606df2",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.button-success",
+      "targets": [
+        ["css=.button-success", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='page-deliver']/form/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cadastre-se para fazer entregas')]", "xpath:innerText"]
+      ],
+      "value": "74,39"
+    }, {
+      "id": "77a84e08-4e43-4eb3-80b2-7eddb8dd2e8e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button-success",
+      "targets": [
+        ["css=.button-success", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='page-deliver']/form/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cadastre-se para fazer entregas')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1cd41493-9c9f-42a0-a0f1-0b57ae1d4389",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button-success",
+      "targets": [
+        ["css=.button-success", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='page-deliver']/form/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cadastre-se para fazer entregas')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b30970be-7f2f-4207-8227-db9882169960",
+      "comment": "",
+      "command": "click",
+      "target": "css=.selected:nth-child(2)",
+      "targets": [
+        ["css=.selected:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='page-deliver']/form/fieldset[3]/ul/li[2]", "xpath:idRelative"],
+        ["xpath=//li[2]", "xpath:position"],
+        ["xpath=//li[contains(.,'Bicicleta')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "12629492-b1ca-4767-ac7d-cde5ac44aedf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.selected:nth-child(3)",
+      "targets": [
+        ["css=.selected:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='page-deliver']/form/fieldset[3]/ul/li[3]", "xpath:idRelative"],
+        ["xpath=//li[3]", "xpath:position"],
+        ["xpath=//li[contains(.,'Van/Carro')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0c420b75-21fc-45c8-9f5b-9d7acfffb223",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button-success",
+      "targets": [
+        ["css=.button-success", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='page-deliver']/form/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cadastre-se para fazer entregas')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8db8b176-74b5-497a-8f55-3950717b41e5",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=swal2-html-container",
+      "targets": [
+        ["id=swal2-html-container", "id"],
+        ["css=#swal2-html-container", "css:finder"],
+        ["xpath=//div[@id='swal2-html-container']", "xpath:attributes"],
+        ["xpath=//div[2]/div/div[2]", "xpath:position"]
+      ],
+      "value": "Recebemos os seus dados. Fique de olho na sua caixa de email, pois e em breve retornamos o contato."
+    }]
+  }],
+  "suites": [{
+    "id": "ebe1428b-df9a-4986-a411-0a33c335edf0",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["9a26d8ad-f1d2-402e-979c-bd319fa6b1df"]
+  }],
+  "urls": ["https://buger-eats.vercel.app/"],
+  "plugins": []
+}
